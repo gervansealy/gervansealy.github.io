@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Document</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap" rel="stylesheet">
+</head>
+<body id="img1">
+    <h1>Guide to Links in HTML</h1>
+    <table class="table1">
+        <caption><strong>Table 1</strong></caption>
+        <tbody>
+            <th class="tag">Tag</th>
+            <th class="structure">Code Structure</th>
+            <tr>
+                <td>
+                    <li>&lt;a href&gt; anchor element</li>
+                    <li>"_blank" tag being used</li>
+                    <li>&lt;a href&gt; with "#subject-title"</li>
+                </td>
+                <td>
+                    <li>&lt;a href="https://www.netflix.com"&gt;Netflix Link&lt;/a&gt;</li>
+                    <li>&lt;a href="https://www.netflix.com" target="_blank"&gt;Netflix Link&lt;/a&gt;</li>
+                    <li>&lt;a href="#subject-title"&gt;Navigate to subject-title&lt;/a&gt;</li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="h2title1">Links with Elements</h2>
+    <div class="info1">
+        <p>To insert a link using HTML, you can use the anchor hyperlink reference element 
+            represented by <strong>&lt;a href&gt;</strong> in <strong>Table 1</strong>. The words 
+            "Netflix Link" will navigate you to the link inserted within 
+            <strong>&lt;a href&gt;</strong> when clicked. <br><br>Added to this, you can use 
+            the <strong>"target"</strong> value. By default, the link would open in the same 
+            page when clicked. If we want it opened in a separate tab, we can use the 
+            <strong>"_blank"</strong> tag.<br><br>
+            The <strong>&lt;a href&gt;</strong> element can also be used as a link to 
+            navigate to a different part of the page through the use of an <strong>"id"</strong>.
+            If an element is given an ID e.g. &lt;h1 id="subject-title", it can be coded
+            in HTML as a link which will direct you to the referenced ID by using the 
+            <strong>"#"</strong>.</p>
+    </div>
+    <table class="table2">
+        <caption><strong>Table 2</strong></caption>
+        <tbody>
+            <th class="tag">Tag</th>
+            <th class="structure">Code Structure</th>
+            <tr>
+                <td>
+                    <li>&lt;img src&gt; (for file location)</li>
+                    <li>&lt;img src&gt; (for URL)</li>
+                </td>
+                <td>
+                    <li>&lt;image src="./css/image.from.folder.jpg" alt="No Show"&gt;</li>
+                    <li>&lt;img src="https://images.app.goo.gl/J1B7DukodVVPsSNo8"&gt;</li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="info2">   
+            <p>We are able to link images into HTML code using the <strong>&lt;img&gt;</strong> 
+            element. This can be done through the use of the <strong>"src"</strong> 
+            attribute which would contain the image file location or URL. <br><br><strong>Table 2</strong> 
+            shows the code that will show the image on your website. You would notice an 
+            <strong>"alt"</strong> element which is the text that would 
+            display on the website if there are any errors with the image location or link.</p>
+    </div>
+    <table class="table3">
+        <caption><strong>Table 3</strong></caption>
+        <tbody>
+            <th class="tag">Tag</th>
+            <th class="structure">Code Structure</th>
+            <tr>
+                <td>
+                    <li>&lt;video src&gt; (showing controls and width / height)</li>
+                    <li>&lt;audio src&gt; (showing autoplay and loop)</li>
+                </td>
+                <td>
+                    <li>&lt;video src="https://www.youtube.com/watch?v=wzWmZYi4qMg" 
+                    controls width="50" height="50"&gt;Video not Supported &lt;/video&gt;</li>
+                    <li>&lt;audio src="./audio clip.mp3" autoplay loop&gt;Audio not Supported&lt;/audio&gt;</li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="info3">
+        <p>Similarly, we are able to link videos and audio into HTML code using the 
+        <strong><em>&lt;video&gt; or &lt;audio&gt;</em></strong> elements shown in <strong>Table 3</strong>. 
+        Videos inputted in HTML utilize the <br><strong>&lt;video src&gt;</strong> tag. Attributes 
+        that can be assigned to this element include <strong>"autoplay"</strong> <strong>"controls"
+        </strong><strong>"loop"</strong> and <strong>"width"</strong> or <strong>"height"</strong>
+        The words in between the opening and closing video tags will show up if the video is
+        not supported in the browser.<br><br>
+        The attributes for <strong>&lt;audio src&gt;</strong> tags include 
+        <strong>"controls"</strong>, <strong>"autoplay"</strong> and <strong>"loop"</strong> 
+        as well. The words in between the opening and closing audio tags will show up if the audio 
+        is not supported in the browser</p>
+    </div>
+</body>
+</html>
